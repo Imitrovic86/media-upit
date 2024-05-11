@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media upit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="container">
+
+            <div class="logo">
+                LOGO
+            </div> <!-- .logo-->
+            <div class="nav">
+                <ul>
+                    <li><a href="#">Pocetna</a></li>
+                    <li><a href="#">O nama</a></li>
+                    <li><a href="#">Usluge</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                </ul>
+                <p id="respmenu">Navigacija</p>
+            </div> <!-- .nav-->
+
+
+        </div> <!-- .container-->
+    </div> <!-- .header-->
+
+    <div class="hero">
+        <div class="container">
+            <div class="heroContainer">
+                <img src="racunar.jpg" alt="racunar">
+                <div class="herotext">
+                    <h1>Lorem ipsum dolor sit amet </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+
+
+                </div> <!-- .herotext-->
+
+            </div> <!-- .Herocontainer-->
+
+        </div> <!-- .container-->
+    </div> <!-- hero-->
+    <div class="products">
+        <div class="container">
+            <div class="product">
+                <a href="#">
+                    <img src="logo.jpg" alt="#">
+                    <span>lorem ipsum</span>
+                </a>
+            </div>
+            <div class="product">
+                <a href="#">
+                    <img src="logo.jpg" alt="#">
+                    <span>lorem ipsum</span>
+                </a>
+            </div>
+            <div class="product">
+                <a href="#">
+                    <img src="logo.jpg" alt="#">
+                    <span>lorem ipsum</span>
+                </a>
+            </div>
+            <div class="product">
+                <a href="#">
+                    <img src="logo.jpg" alt="#">
+                    <span>lorem ipsum</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelector('#respmenu').addEventListener('click', function () {
+            document.querySelector('.nav ul').classList.toggle('open');
+        });
+    </script>
+</body>
+
+</html>
